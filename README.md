@@ -1,6 +1,7 @@
 # EchonestEx
 
-**TODO: Add description**
+Elixir wrapper for Echonest API (V4)
+[http://developer.echonest.com/docs/v4](http://developer.echonest.com/docs/v4)
 
 ## Installation
 
@@ -17,3 +18,4 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:echonest_ex]]
         end
+
