@@ -1,4 +1,5 @@
-# EchonestEx [![Travis CI](https://api.travis-ci.org/desmondhume/echonest_ex.svg?branch=master)](https://travis-ci.org/desmondhume/echonest_ex)
+# EchonestEx [![Travis CI](https://api.travis-ci.org/desmondhume/echonest_ex.svg?branch=master)](https://travis-ci.org/desmondhume/echonest_ex) [![Coverage Status](https://coveralls.io/repos/github/desmondhume/echonest_ex/badge.svg?branch=master)](https://coveralls.io/github/desmondhume/echonest_ex?branch=master)
+
 
 Elixir wrapper for Echonest API (V4)
 [http://developer.echonest.com/docs/v4](http://developer.echonest.com/docs/v4)
