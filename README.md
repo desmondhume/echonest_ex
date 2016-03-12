@@ -1,4 +1,4 @@
-# EchonestEx
+# EchonestEx [![Travis CI](https://api.travis-ci.org/desmondhume/echonest_ex.svg?branch=master)](https://travis-ci.org/desmondhume/echonest_ex)
 
 Elixir wrapper for Echonest API (V4)
 [http://developer.echonest.com/docs/v4](http://developer.echonest.com/docs/v4)
@@ -18,4 +18,5 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:echonest_ex]]
         end
+
 
