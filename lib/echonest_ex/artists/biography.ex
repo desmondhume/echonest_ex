@@ -17,7 +17,7 @@ defmodule EchonestEx.Artists.Biography do
     Map.get(response, @collection_key, [])
   end
 
-  defp build_resource(%{"text" => text, "url" => url, "site" => site}) do
+  def build_resource(%{"text" => text, "url" => url, "site" => site}) do
     %__MODULE__{text: text, url: url, site: site}
   end
 end
