@@ -1,0 +1,14 @@
+[
+  {
+    "request": {
+      "url": "http://developer.echonest.com/api/v4/artist/terms?api_key=MY_SECRET_KEY&id=ARH6W4X1187B99274F&format=json"
+    },
+    "response": {
+      "status_code": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"response\": {\"start\": 0, \"status\": {\"code\": 0, \"message\": \"Success\", \"version\": \"4.2\"}, \"terms\": [{\"frequency\": 1.0, \"name\": \"rock\", \"weight\": 1.0 }, {\"frequency\": 0.46207999113990994, \"name\": \"electronic\", \"weight\": 0.8550242674815747 } ] } }"
+    }
+  }
+]

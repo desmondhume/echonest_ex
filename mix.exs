@@ -33,7 +33,8 @@ defmodule EchonestEx.Mixfile do
     [
       { :httpoison, "~> 0.8.0" },
       { :poison, "~> 2.0" },
-      { :excoveralls, "~> 0.4", only: :test }
+      { :excoveralls, "~> 0.4", only: :test },
+      { :exvcr, "~> 0.7",       only: :test }
     ]
   end
 end
