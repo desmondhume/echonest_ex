@@ -7,7 +7,7 @@ defmodule EchonestEx.Mixfile do
 
   def project do
     [ app: :echonest_ex,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.1",
       name: "EchonestEx",
       description: @description,

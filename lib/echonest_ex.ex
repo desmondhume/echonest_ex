@@ -28,6 +28,6 @@ defmodule EchonestEx do
 
   def parse_response(response) do
     response.body
-    |> Poison.decode!(as: %EchonestEx.Client.Response{})
+    |> Poison.decode!(as: EchonestEx.Client.Response)
   end
 end
