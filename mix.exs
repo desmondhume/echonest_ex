@@ -25,7 +25,7 @@ defmodule EchonestEx.Mixfile do
   defp deps do
     [
       { :httpoison, "~> 0.8.0" },
-      { :poison, "~> 2.0" },
+      { :poison, "~> 1.3" },
       { :excoveralls, "~> 0.4", only: :test },
       { :exvcr, "~> 0.7",       only: :test }
     ]
